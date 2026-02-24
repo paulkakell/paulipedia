@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="pageTitle">Paul Karl Arthur Kell Personal Page</title>
+  <meta name="description" id="metaDescription" content="Paul Kell's Wikipedia-style personal biography page." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="brand" aria-label="Site brand">
+        <a class="brand__logo" href="./" aria-label="Home">
+          <span class="brand__mark" aria-hidden="true">P</span>
+        </a>
+        <div class="brand__text">
+          <div class="brand__title" id="siteName">PaulKarlArthurKell.com</div>
+          <div class="brand__subtitle" id="siteTagline">The Paul Encyclopedia</div>
+        </div>
+      </div>
+
+      <nav class="topnav" aria-label="Top navigation">
+        <a href="#content">Article</a>
+        <a href="#talk" class="muted">Talk</a>
+        <a href="#read" class="muted">Read</a>
+        <a href="#view-source" class="muted">View source</a>
+        <a href="#history" class="muted">View history</a>
+      </nav>
+
+      <form class="search" role="search" aria-label="Search within page">
+        <label class="sr-only" for="searchInput">Search</label>
+        <input id="searchInput" type="search" placeholder="Search this page" autocomplete="off" />
+        <button type="button" id="searchClear" class="search__clear" aria-label="Clear search" hidden>×</button>
+      </form>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="sidebar__block">
+        <div class="sidebar__title">Navigation</div>
+        <ul class="sidebar__list">
+          <li><a href="#content">Main page</a></li>
+          <li><a href="#toc">Contents</a></li>
+          <li><a href="#references">References</a></li>
+          <li><a href="#external-links">External links</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar__block">
+        <div class="sidebar__title">Tools</div>
+        <ul class="sidebar__list">
+          <li><a href="./editor.html">Edit data.json</a></li>
+          <li><a href="#" id="downloadJson">Download data.json</a></li>
+          <li><a href="#" id="printPage">Printable version</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar__block">
+        <div class="sidebar__title">Appearance</div>
+        <button class="btn" id="toggleTheme" type="button" aria-pressed="false">Toggle dark mode</button>
+        <div class="hint">Theme preference is saved in your browser.</div>
+      </div>
+    </aside>
+
+    <main class="main" id="content" role="main">
+      <div class="page">
+        <div class="page__header">
+          <h1 class="page__title" id="articleTitle">Loading…</h1>
+          <div class="page__meta" id="articleMeta"></div>
+        </div>
+
+        <div class="page__body">
+          <section class="lead" id="lead">
+            <div class="lead__text" id="leadText"></div>
+          </section>
+
+          <nav class="toc" id="toc" aria-label="Table of contents">
+            <div class="toc__title">Contents</div>
+            <ol class="toc__list" id="tocList"></ol>
+          </nav>
+
+          <article class="article" id="article"></article>
+
+          <section id="references" class="section">
+            <h2>References</h2>
+            <ol class="refs" id="refsList"></ol>
+          </section>
+
+          <section id="external-links" class="section">
+            <h2>External links</h2>
+            <ul class="extlinks" id="externalLinks"></ul>
+          </section>
+        </div>
+      </div>
+
+      <footer class="footer" role="contentinfo">
+        <div class="footer__inner">
+          <div class="footer__legal">
+            Site code MIT License.  Content restricted.
+          </div>
+          <div class="footer__small">
+            (c)2026 - Paul Karl Arthur Kell
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <aside class="rail" aria-label="Infobox rail">
+      <aside class="infobox infobox--rail" aria-label="Infobox">
+        <div class="infobox__title" id="infoTitle"></div>
+        <div class="infobox__imagewrap" id="infoImageWrap" hidden>
+          <img id="infoImage" class="infobox__image" alt="" />
+          <div id="infoImageCaption" class="infobox__caption"></div>
+        </div>
+        <dl class="infobox__dl" id="infoboxFields"></dl>
+      </aside>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paulipedia Data Editor</title>
+  <meta name="description" content="Edit Paulipedia data.json in a guided interface." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./assets/editor.css" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="brand" aria-label="Site brand">
+        <a class="brand__logo" href="./" aria-label="Home">
+          <span class="brand__mark" aria-hidden="true">P</span>
+        </a>
+        <div class="brand__text">
+          <div class="brand__title" id="siteName">Paulipedia</div>
+          <div class="brand__subtitle" id="siteTagline">Data editor</div>
+        </div>
+      </div>
+
+      <nav class="topnav" aria-label="Top navigation">
+        <a href="./">View site</a>
+        <a href="./editor.html" aria-current="page">Edit data</a>
+        <a href="./data/data.json" class="muted" target="_blank" rel="noopener noreferrer">View JSON</a>
+      </nav>
+
+      <div class="topbar__actions" aria-label="Editor actions">
+        <button class="btn btn--small" id="toggleTheme" type="button" aria-pressed="false">Toggle dark mode</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Editor sidebar">
+      <div class="sidebar__block">
+        <div class="sidebar__title">Data file</div>
+        <button class="btn" id="loadSiteData" type="button">Load site data.json</button>
+
+        <label class="editor-file">
+          <span class="editor-file__label">Import data.json</span>
+          <input id="importFile" type="file" accept="application/json" />
+        </label>
+
+        <button class="btn" id="resetChanges" type="button" disabled>Reset changes</button>
+      </div>
+
+      <div class="sidebar__block">
+        <div class="sidebar__title">Export</div>
+        <button class="btn" id="downloadJson" type="button" disabled>Download data.json</button>
+        <button class="btn" id="saveToFile" type="button" disabled>Save to file (supported browsers)</button>
+        <div class="hint">GitHub Pages cannot be edited in-place. Download the updated <code>data.json</code> and commit it.</div>
+      </div>
+
+      <div class="sidebar__block">
+        <div class="sidebar__title">Validation</div>
+        <button class="btn" id="validate" type="button" disabled>Validate structure</button>
+        <div class="hint" id="validationSummary">Load data to begin.</div>
+      </div>
+
+      <div class="sidebar__block">
+        <div class="sidebar__title">Tips</div>
+        <ul class="sidebar__list">
+          <li><span class="muted">Use ▸ to expand objects/arrays.</span></li>
+          <li><span class="muted">Use ＋ to add keys/items.</span></li>
+          <li><span class="muted">Use 🗑 to delete keys/items.</span></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main" id="content" role="main">
+      <div class="page">
+        <div class="page__header">
+          <h1 class="page__title">Data editor</h1>
+          <div class="page__meta" id="editorStatus">No data loaded.</div>
+        </div>
+
+        <div class="page__body">
+          <div class="editor-notice" id="editorNotice" hidden></div>
+          <div class="editor-tree" id="tree" aria-label="JSON tree editor"></div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="rail" aria-label="JSON preview rail">
+      <aside class="infobox infobox--rail" aria-label="JSON preview">
+        <div class="infobox__title">JSON output</div>
+        <div class="editor-preview">
+          <div class="editor-preview__actions">
+            <button class="btn btn--small" id="copyJson" type="button" disabled>Copy</button>
+          </div>
+          <textarea id="jsonPreview" class="editor-preview__textarea" rows="18" readonly></textarea>
+          <div class="hint" id="dirtyHint"> </div>
+        </div>
+      </aside>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <dialog class="editor-dialog" id="addDialog">
+    <form method="dialog" class="editor-dialog__form" id="addDialogForm">
+      <h2 class="editor-dialog__title" id="addDialogTitle">Add item</h2>
+
+      <div class="editor-dialog__row" id="addKeyRow" hidden>
+        <label class="editor-dialog__label" for="addKey">Key</label>
+        <input class="editor-input" id="addKey" type="text" autocomplete="off" />
+      </div>
+
+      <div class="editor-dialog__row">
+        <label class="editor-dialog__label" for="addType">Type</label>
+        <select class="editor-input" id="addType">
+          <option value="string">string</option>
+          <option value="number">number</option>
+          <option value="boolean">boolean</option>
+          <option value="null">null</option>
+          <option value="object">object</option>
+          <option value="array">array</option>
+        </select>
+      </div>
+
+      <div class="editor-dialog__row" id="addValueRow">
+        <label class="editor-dialog__label" for="addValue">Value</label>
+        <textarea class="editor-input editor-input--textarea" id="addValue" rows="3"></textarea>
+        <div class="hint">For booleans use <code>true</code> or <code>false</code>. Numbers accept decimals.</div>
+      </div>
+
+      <menu class="editor-dialog__actions">
+        <button class="btn btn--small" value="cancel" type="button" id="addCancel">Cancel</button>
+        <button class="btn btn--small" value="default" type="submit" id="addSubmit">Add</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script type="module" src="./assets/editor.mjs"></script>
+</body>
+</html>

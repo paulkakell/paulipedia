@@ -1,0 +1,312 @@
+{
+  "site": {
+    "name": "Paulipedia",
+    "tagline": "The Paul Kell encyclopedia"
+  },
+  "article": {
+    "title": "Paul Karl Arthur Kell",
+    "description": "A Wikipedia-style biography page for Paul Kell.",
+    "lead": "Paul Kell is an author and technologist known for building practical tools and writing accessible non-fiction.\n\n",
+    "lastUpdated": "2026-02-18",
+    "readTimeMinutes": 6
+  },
+  "person": {
+    "name": "Paul Karl Arthur Kell"
+  },
+  "infobox": {
+    "title": "Paul Karl Arthur Kell",
+    "image": {
+      "src": "./assets/1.jpg",
+      "alt": "2017",
+      "caption": "Paul Kell"
+    },
+    "fields": [
+      {
+        "label": "Born",
+        "value": "1976 in Cudahy, WI"
+      },
+      {
+        "label": "Occupation",
+        "value": [
+          "Cybersecurity Engineer",
+          "Author",
+          "Entrepreneur"
+        ]
+      },
+      {
+        "label": "Known for",
+        "value": "Cybersecurity, Information Technology, and Independent Publishing"
+      },
+      {
+        "label": "Websites",
+        "value": {
+          "text": "PaulKarlArthurKell.com",
+          "url": "https://paulkarlarthurkell.com"
+        }
+      },
+      {
+        "label": "Active",
+        "value": "1998- Present"
+      },
+      {
+        "label": "Notable works",
+        "value": [
+          {
+            "text": "Cybersecurity for IT Managers",
+            "url": "#authored-books"
+          },
+          {
+            "text": "Beginner’s Guide to PowerShell Scripting",
+            "url": "#authored-books"
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "personal-life",
+      "title": "Personal history",
+      "paragraphs": [
+        "Paul was born on March 1, 1976 in Cudahy, a small industrial town near Milwaukee. His early years were marked by change. At eight years old, he moved with his family to Raleigh. Only a year later, another move brought him to Kentucky, where he would spend the rest of his childhood.",
+        "He graduated from Woodford County High School and later attended Lexington Community College. Although he did not complete his degree, those years marked his transition into adulthood and independence.",
+        "In 2003, he married for the first time. In 2010, he made a major change and moved to Hawaii, experiencing life far from the mainland he had known. In 2014, he relocated again, this time to Utah. His first marriage ended in divorce in 2015. The following year, in 2016, he remarried.",
+        "His life has been shaped by movement, adjustment, and new beginnings across several states, each chapter building on the last."
+      ],
+      "bullets": [
+        "Hometown: Versailles, KY",
+        "Education: Lexington Community College | Embry-Riddle Aeronautical University",
+        "Interests: Smart Automation, Cybersecurity, Process Improvement"
+      ]
+    },
+    {
+      "id": "career",
+      "title": "Career",
+      "paragraphs": [
+      ],
+      "subsections": [
+        {
+          "title": "Observian, Inc | Salt Lake City, UT (Remote)",
+          "paragraphs": [
+            "Cloud Security Engineer      |    Mar, 2022 - Present",
+            "Cloud Security Engineer delivering Managed Detection and Response services within a Managed Security Services Provider environment. Specialized in multi tenant cloud threat detection, incident response, and continuous security posture improvement using Datadog and Lacework.",
+            "Led 24 by 7 monitoring and triage of cloud security alerts across AWS, Azure, and GCP environments. Tuned and optimized Datadog Cloud SIEM and Lacework detection policies to reduce false positives while preserving high fidelity threat detection. Correlated audit logs, infrastructure metrics, application telemetry, and container runtime events to identify privilege escalation, lateral movement, data exfiltration, and misconfiguration risks.",
+            "Designed and refined detection rules aligned to MITRE ATT and mapped alerts to threat tactics and techniques for structured reporting. Built executive and technical dashboards to communicate risk posture, active threats, and remediation progress. Performed deep analysis of IAM activity, network flows, API usage patterns, and infrastructure as code deployments.",
+            "Conducted incident response investigations including root cause analysis, blast radius assessment, containment recommendations, and formal reporting. Led client facing incident calls and delivered actionable remediation guidance tailored to each customer environment.",
+            "Developed and maintained automation scripts in Python and PowerShell to streamline alert enrichment, evidence collection, and reporting workflows. Authored operational runbooks and improved SOC processes to meet strict SLA requirements across multiple clients.",
+            "Collaborated with cloud engineers and security architects to harden environments, implement least privilege access models, and improve container and Kubernetes security controls. Contributed to continuous improvement initiatives focused on proactive threat hunting, telemetry coverage validation, and automated response capabilities."
+          ]
+        },{
+          "title": "Second Mission Veteran Services  |  Lehi, UT",
+          "paragraphs": [
+            "Member Board of Directors    |    Jan, 2025 - Jan, 2026",
+            "Mention tools, platforms, and focus areas without going too deep."
+          ],
+          "bullets": [
+            "Cloud security: Add focus areas",
+            "Automation: Add notable systems or scripts",
+            "Operations: Add scale, reliability, or incident response work"
+          ]
+        },
+        {
+          "title": "Publishing and writing",
+          "paragraphs": [
+            "Describe how your writing began and what you write now.",
+            "If you have a guiding theme, say it plainly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authored-books",
+      "title": "Authored books",
+      "paragraphs": [
+        "List your books with short descriptions, publication status, and links."
+      ],
+      "cards": {
+        "subtitle": "Selected bibliography",
+        "items": [
+          {
+            "title": "The Hypothesis Of Christian Faith",
+            "badge": "In progress",
+            "dateRange": "2027",
+            "summary": "An analytically grounded exploration of Christianity that applies the scientific method, historical scholarship, and empathy to examine Christian claims without presuming belief or disbelief, aiming to clarify what can be tested, what must be interpreted, and how the tradition continues to shape human meaning in a changing world.",
+            "links": []
+          },
+          {
+            "title": "The Absent Qualia Thought Experiment",
+            "badge": "Non-fiction",
+            "dateRange": "2025",
+            "summary": "The Absent Qualia Thought Experiment explores one of the most unsettling questions in philosophy: can a being act fully conscious yet feel nothing inside? This puzzle, known as the absent qualia problem, challenges our understanding of mind, science, and identity. At its heart is the idea of the “hollow machine,” a being that smiles, speaks, and remembers but lacks the inner glow of experience. The question forces us to confront whether consciousness can ever be reduced to function alone or if something vital is missing.",
+            "links": [
+              {
+                "text": "Amazon",
+                "url": "https://www.amazon.com/Absent-Qualia-Thought-Experiment/dp/B0FZ9GPTQS"
+              },{
+                "text": "Apple Books",
+                "url": "https://books.apple.com/us/book/the-absent-qualia-thought-experiment/id6757843548"
+              },{
+                "text": "Apple Audiobook",
+                "url": "https://books.apple.com/us/audiobook/the-absent-qualia-thought-experiment-unabridged/id1860716411"
+              },{
+                "text": "Audible",
+                "url": "https://www.audible.com/pd/The-Absent-Qualia-Thought-Experiment-Audiobook/B0G6GL79XF"
+              },{
+                "text":"Barnes & Noble",
+                "url": "https://www.barnesandnoble.com/w/the-absent-qualia-thought-experiment-paul-karl-arthur-kell/1148816113"
+              },{
+                "text":"Feltrinelli",
+                "url": "https://www.lafeltrinelli.it/absent-qualia-thought-experiment-ebook-inglese-paul-karl-arthur-kell/e/9798233807541"
+              },{
+                "text":"Goodreads",
+                "url": "https://www.goodreads.com/book/show/245103518-the-absent-qualia-thought-experiment"
+              },{
+                "text":"Indigo",
+                "url": "https://www.indigo.ca/en-ca/the-absent-qualia-thought-experiment/a2cf3746-969f-32f6-92cc-fd581540ca7d.html"
+              },{
+                "text": "Walmart",
+                "url": "https://www.walmart.com/ip/The-Absent-Qualia-Thought-Experiment-Paperback-9798272733269/18778510084"
+              },{
+                "text": "Waterstones",
+                "url": "https://www.waterstones.com/book/the-absent-qualia-thought-experiment/paul-kell//9798272733269"
+              }
+            ]
+          },
+          {
+            "title": "Cybersecurity for IT Managers: Practical Defense, Resilient Infrastructure, and Leadership in the Digital Age",
+            "badge": "Non-fiction",
+            "dateRange": "2025",
+            "summary": "A practical, experience-driven field guide that helps IT managers and infrastructure leaders take on cybersecurity responsibilities with confidence by focusing on fundamentals, real-world tradeoffs, and clear communication rather than tools or theory.",
+            "links": [
+              {
+                "text": "Amazon",
+                "url": "https://www.amazon.com/Cybersecurity-Managers-Practical-Infrastructure-Leadership/dp/B0FD7F1YM1"
+              }
+            ]
+          },
+          {
+            "title": "Beginner’s Guide to PowerShell Scripting: Automate Windows Administration, Master Active Directory, and Unlock Cloud DevOps with Real-World Scripts and Projects",
+            "badge": "Non-fiction",
+            "dateRange": "2025",
+            "summary": "A step by step, hands on guide that takes beginners and working IT professionals from basic PowerShell concepts to real world automation across Windows, Active Directory, cloud platforms, and modern infrastructure, with a focus on practical scripts that save time and reduce manual work.",
+            "links": [
+              {
+                "text": "Amazon",
+                "url": "https://www.amazon.com/Beginners-Guide-PowerShell-Scripting-Administration-ebook/dp/B0F4LVDYKX"
+              },
+              {
+                "text": "Apple",
+                "url": "https://www.audible.com/pd/Beginners-Guide-to-PowerShell-Scripting-Audiobook/B0FKJRHKC7"
+              },
+              {
+                "text": "Audible",
+                "url": "https://www.audible.com/pd/Beginners-Guide-to-PowerShell-Scripting-Audiobook/B0FKJRHKC7"
+              },
+              {
+                "text": "Barnes & Noble",
+                "url": "https://www.barnesandnoble.com/w/beginners-guide-to-powershell-scripting-paul-karl-arthur-kell/1147337105"
+              }
+            ]
+          },
+          {
+            "title": "The Mindful Edge: Mastering Habits, Boosting Productivity, and Building Meaningful Relationships",
+            "badge": "Non-fiction",
+            "dateRange": "2025",
+            "summary": "A comprehensive blueprint for designing a life that aligns with who you are, what you value, and how you want to show up in the world.",
+            "links": [
+              {
+                "text": "Amazon",
+                "url": "https://www.amazon.com/Mindful-Edge-Productivity-Meaningful-Relationships/dp/B0F4PSTLG6"
+              },
+              {
+                "text": "Apple",
+                "url": "https://www.audible.com/pd/Beginners-Guide-to-PowerShell-Scripting-Audiobook/B0FKJRHKC7"
+              },
+              {
+                "text": "Audible",
+                "url": "https://www.audible.com/pd/Beginners-Guide-to-PowerShell-Scripting-Audiobook/B0FKJRHKC7"
+              },
+              {
+                "text": "Barnes & Noble",
+                "url": "https://www.barnesandnoble.com/w/beginners-guide-to-powershell-scripting-paul-karl-arthur-kell/1147337105"
+              }
+            ]
+          }
+
+        ]
+      }
+    },
+    {
+      "id": "businesses",
+      "title": "Businesses and projects",
+      "paragraphs": [
+        "Describe the businesses or brands you operate, what they do, and why they exist."
+      ],
+      "cards": {
+        "subtitle": "Active businesses and brands",
+        "items": [
+          {
+            "title": "Timeboard",
+            "badge": "Product",
+            "role": "Founder",
+            "dateRange": "2026",
+            "summary": "Timeboard is a lightweight, mobile-friendly task tracking web app with role-based views, archiving and recovery, task type filtering/sorting, and admin tools for user management and JSON database export/import. It supports login by username or email, optional email reminders for overdue tasks, and email-based password resets.",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/paulkakell/timeboard"
+              }
+            ]
+          },
+          {
+            "title": "BlindCrypt",
+            "badge": "Product",
+            "role": "Founder",
+            "dateRange": "2026",
+            "summary": "BlindCrypt is a client side web app for encrypting and decrypting files in your browser. Passphrases and plaintext never leave the device. Uses WebCrypto, strong passphrases, and a simple format for secure file sharing over untrusted channels.",
+            "links": [
+              {
+                "text": "Website",
+                "url": "https://paulkakell.github.io/BlindCrypt/"
+              },
+              {
+                "text": "GitHub",
+                "url": "https://github.com/paulkakell/BlindCrypt"
+              }
+            ]
+          }
+
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "label": "Add citations you want listed here (optional).",
+      "url": "https://example.com"
+    }
+  ],
+  "externalLinks": [
+    {
+      "text": "Amazon Author Profile",
+      "url": "https://www.amazon.com/stores/author/B0F5W3YTVK"
+    },
+    {
+      "text": "Audible Author Profile",
+      "url": "https://www.audible.com/author/Paul-Kell/B0F5W3YTVK"
+    },
+    {
+      "text": "Barnes & Noble Author Search",
+      "url": "https://www.barnesandnoble.com/s/%22Paul%20Karl%20Arthur%20Kell%22"
+    },
+    {
+      "text": "GitHub Profile",
+      "url": "https://github.com/paulkakell"
+    },
+    {
+      "text": "LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/paulkarlarthurkell"
+    }
+
+  ]
+}
