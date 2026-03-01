@@ -111,8 +111,8 @@
         {
           "title": "Publishing and writing",
           "paragraphs": [
-            "Describe how your writing began and what you write now.",
-            "If you have a guiding theme, say it plainly."
+            "Paul’s writing style is grounded, analytical, and systems oriented. He tends to approach ideas the way an engineer approaches infrastructure, mapping the underlying structure before addressing the surface narrative. Whether writing about national security, self reliance, cybersecurity leadership, or cultural decline, his work favors clarity over ornamentation and momentum over abstraction. He writes for readers who want usable insight, not performance. His tone often carries a quiet urgency, shaped by a belief that modern life drifts toward complexity while people crave coherence. Even in speculative or fictional work, there is an architectural quality beneath the prose, a sense that the world has been designed rather than merely described.",
+            "His style began at the intersection of technical practice and cultural observation. Years spent working in systems, security, and infrastructure sharpened his instinct to trace causes instead of reacting to symptoms. At the same time, a long standing interest in history, autonomy, and institutional power pushed him to question prevailing narratives. Writing became the medium through which those threads converged. What started as analysis evolved into structured storytelling, then into books that blend discipline with imagination. The result is work that looks forward while examining foundations, always asking not only what is happening, but what it means for those who want to build something durable."
           ]
         }
       ]
@@ -250,7 +250,7 @@
             "badge": "Product",
             "role": "Founder",
             "dateRange": "2026",
-            "summary": "Timeboard is a lightweight, mobile-friendly task tracking web app with role-based views, archiving and recovery, task type filtering/sorting, and admin tools for user management and JSON database export/import. It supports login by username or email, optional email reminders for overdue tasks, and email-based password resets.",
+            "summary": "TimeboardApp is a lightweight, mobile-friendly task tracking web app with role-based views, archiving and recovery, task type filtering/sorting, and admin tools for user management and JSON database export/import. It supports login by username or email, optional email reminders for overdue tasks, and email-based password resets.",
             "links": [
               {
                 "text": "GitHub",
