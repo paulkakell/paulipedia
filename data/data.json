@@ -246,7 +246,7 @@
         "subtitle": "Active businesses and brands",
         "items": [
           {
-            "title": "Timeboard",
+            "title": "TimeboardApp",
             "badge": "Product",
             "role": "Founder",
             "dateRange": "2026",
@@ -254,7 +254,7 @@
             "links": [
               {
                 "text": "GitHub",
-                "url": "https://github.com/paulkakell/timeboard"
+                "url": "https://github.com/paulkakell/timeboardapp"
               },
               {
                 "text": "Website",
