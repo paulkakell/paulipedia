@@ -255,6 +255,14 @@
               {
                 "text": "GitHub",
                 "url": "https://github.com/paulkakell/timeboard"
+              },
+              {
+                "text": "Website",
+                "url": "https://timeboardapp.com"
+              },
+              {
+                "text": "Online Demo",
+                "url": "https://demo.timeboardapp.com"
               }
             ]
           },
