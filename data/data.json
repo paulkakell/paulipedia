@@ -120,9 +120,7 @@
     {
       "id": "authored-books",
       "title": "Authored books",
-      "paragraphs": [
-        "List your books with short descriptions, publication status, and links."
-      ],
+      "paragraphs": [],
       "cards": {
         "subtitle": "Selected bibliography",
         "items": [
