@@ -123,7 +123,7 @@
       "paragraphs": [],
       "cards": {
         "subtitle": "Selected bibliography",
-        "items": [
+        "items": [4
           {
             "title": "The Hypothesis Of Christian Faith",
             "badge": "In progress",
@@ -183,6 +183,18 @@
             ]
           },
           {
+            "title": "Linux Made Human: A Layman's Guide to Open Source Power",
+            "badge": "Non-fiction",
+            "dateRange": "2025",
+            "summary": "Linux Made Human is your beginner-friendly guide to navigating the world of open-source computing. Whether you're fed up with Big Tech, craving more control over your system, or just curious about what lies beyond Windows and macOS, this book takes you step-by-step through everything you need to know—no experience required.",
+            "links": [
+              {
+                "text": "Amazon",
+                "url": "https://www.amazon.com/dp/B0F8YMDG8K"
+              }
+            ]
+          },
+          {
             "title": "Beginner’s Guide to PowerShell Scripting: Automate Windows Administration, Master Active Directory, and Unlock Cloud DevOps with Real-World Scripts and Projects",
             "badge": "Non-fiction",
             "dateRange": "2025",
@@ -236,16 +248,14 @@
     },
     {
       "id": "businesses",
-      "title": "Businesses and projects",
-      "paragraphs": [
-        "Describe the businesses or brands you operate, what they do, and why they exist."
-      ],
+      "title": "Apps, Businesses and Projects",
+      "paragraphs": [],
       "cards": {
-        "subtitle": "Active businesses and brands",
+        "subtitle": "Active applications, businesses and projects",
         "items": [
           {
             "title": "TimeboardApp",
-            "badge": "Product",
+            "badge": "Application",
             "role": "Founder",
             "dateRange": "2026",
             "summary": "TimeboardApp is a lightweight, mobile-friendly task tracking web app with role-based views, archiving and recovery, task type filtering/sorting, and admin tools for user management and JSON database export/import. It supports login by username or email, optional email reminders for overdue tasks, and email-based password resets.",
@@ -266,7 +276,7 @@
           },
           {
             "title": "BlindCrypt",
-            "badge": "Product",
+            "badge": "Application",
             "role": "Founder",
             "dateRange": "2026",
             "summary": "BlindCrypt is a client side web app for encrypting and decrypting files in your browser. Passphrases and plaintext never leave the device. Uses WebCrypto, strong passphrases, and a simple format for secure file sharing over untrusted channels.",
